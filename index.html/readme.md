@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+ <link rel="stylesheet" href="style.css" />
  <head>
    <meta charset="UTF-8" />
   <title>Tentang saya</title>
