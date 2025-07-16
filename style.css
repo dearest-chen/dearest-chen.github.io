@@ -1,14 +1,14 @@
 .flex-container {
   display: flex;
   background-color: white;
-  width: 300px;
+  width: 600px;
 
 }
-.flex-container div {
+.flex-container div{
   background-color: cyan;
   margin: 10px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 body {
@@ -20,6 +20,9 @@ h1 {
   color: rgb(114, 187, 235);
   text-align: center;
 }
+h2{
+  text-align: center;
+}
 p {
   font-size: 16px;
   text-align: justify;
@@ -29,14 +32,16 @@ p {
 
 .container{
   display: flex;
+  container-align: center
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
 }
+
 .box{
   width: 120px;
   height: 60px;
-  font: 8em;
+  font: 7em;
   text-align: center;
 }
 .box1 {
@@ -51,3 +56,6 @@ p {
   background-color: rgb(214, 255, 201);
 }
 
+.box4 {
+  background-color: beige;
+}
