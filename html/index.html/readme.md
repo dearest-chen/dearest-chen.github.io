@@ -2,9 +2,9 @@
 <html lang="id">
  
  <head>
-  <link rel="stylesheet" href="style.css" />
    <meta charset="UTF-8" />
   <title>Tentang saya</title>
+  <link rel="stylesheet" href="style.css" />
  </head>
   <body>
     <h1> Baithar J Daren</h1>
