@@ -5,15 +5,34 @@
    <meta charset="UTF-8" />
   <title>Tentang saya</title>
   <link rel="stylesheet" href="style.css" />
+  
+  <style>
+  .flex-container {
+  display: flex;
+  background-color: white;
+  width: 300px;
+
+}
+.flex-container div {
+  background-color: red;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+</style>
  </head>
+ 
   <body>
     <h1> Baithar J Daren</h1>
     <p> Boleh panggil saya Chen atau Bai, Saya adalah mahasiswa baru Universitas sriwijaya prodi Teknik Informatika ajqwsnqowjxsjkwsdhdbuew </p>
     <h2>Hobi akuu</h2>
     <ul>
-      <li> Menggambar Digital </li>
-      <li> Menulis cerpen dan sajak </li>
-      <li> Bermain alat musik </li>
+     <div class="flex-container">
+        <ul>
+  <div class="box" id="box1">Menggambar Digital</div>
+  <div class="box" id="box2">Menulis cerpen dan sajak</div>
+  <div class="box" id="box3">Bermain alat musik </div>
+  </div>
     </ul>
     
    <h2> Support System akuu</h2>
